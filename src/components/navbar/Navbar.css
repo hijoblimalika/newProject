@@ -103,8 +103,12 @@
         width: 100%;
         
     }
+    .navbar__box1 img{
+        width: 250px;
+        height: 62px;
+    }
     .navbar{
-        height: 40vh;
+        height: 30vh;
     }
     .navbar__box2{
         display: none;
