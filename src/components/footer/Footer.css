@@ -81,6 +81,10 @@
     .footer{
         margin-top: 89%;
     }
+    .footer__box1_1_1{
+        width: 90%;
+        margin-left: 40px;
+    }
     .footer__box1{
         display: block;
     }
