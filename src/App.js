@@ -6,6 +6,7 @@ import Main from './components/main/Main';
 import Describing from './components/describing/Describing';
 import NewEra from './components/newEra/NewEra';
 import Customize from './components/customize/Customize';
+import Gamephoto from './components/gamephoto/Gamephoto';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
     <Describing/>
     <NewEra/>
     <Customize/>
+    <Gamephoto/>
     </div>
   );
 }

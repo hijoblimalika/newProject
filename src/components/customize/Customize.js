@@ -17,7 +17,7 @@ function Customize() {
             accusantium doloremque laudantium, totam rem aperiam, eaque
             ipsa quae ab illo inventore veritatis et quasi architecto beatae
             vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia</div>
-            {/* <img src="https://infinizai.netlify.app/img/ch3.png" alt="" className='customiza__img3'/> */}
+            <img src="https://infinizai.netlify.app/img/ch3.png" alt="" className='customiza__img3'/>
         </div>
     </div>
   )

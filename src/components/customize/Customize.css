@@ -50,13 +50,17 @@
         display: none;
     }
     .customiza__h11{
+        width: 100%;
         text-align: center;
         font-size: 40px;
         margin-left: 90px;
     }
     .customiza__pp{
         width: 100%;
-        text-align: center;
+        display: none;
         margin-left: 90px;
+    }
+    .customiza__img3{
+        display: none;
     }
 }
