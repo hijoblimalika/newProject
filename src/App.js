@@ -9,6 +9,7 @@ import Customize from './components/customize/Customize';
 import Gamephoto from './components/gamephoto/Gamephoto';
 import Latest from './components/latest/Latest';
 import Gaming from './components/gaming/Gaming';
+import Footer from './components/footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
     <Gamephoto/>
     <Latest/>
     <Gaming/>
+    <Footer/>
     </div>
   );
 }
