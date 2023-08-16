@@ -1,0 +1,139 @@
+.describing{
+    width: 100%;
+    height: 150vh;
+}
+.glavniy__img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.20);
+    position: absolute;
+}
+.describing__container{
+    position: absolute;
+}
+
+.describing__img1{
+    margin-left: 700px;
+    margin-top: 90px;
+}
+.describing__container span{
+    color: #45B8FF;
+}
+.desc__h11 {
+    font-size: 80px;
+    width: 60%;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.desc__pp {
+    width: 60%;
+    text-align: center;
+    font-size: 23px;
+    color: #B9BBBD;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.desc__con{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.desc__box{
+    width: 30%;
+    height: 35vh;
+    margin-top: 60px;
+    margin-left: 200px;
+    background: #46514f6c;
+    border-radius: 15px;
+}
+.desc__box2{
+    width: 30%;
+    height: 35vh;
+    margin-top: 60px;
+    margin-left: 200px;
+    background: #46514f6c;
+    border-radius: 15px;
+}
+.describing__img2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.all__new{
+    font-size: 35px;
+    font-weight: 100;
+    font-style: italic;
+    color: #fff;
+    margin-left: 40px;
+
+}
+.viv{
+    width: 60%;
+    color:  #C2C3C4;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-style: italic;
+}
+@media  screen and (max-width: 1000px) {
+    .describing__img1{
+        display: none;
+    }
+    .describing__container span{
+        display: none;
+    }
+    .desc__box2{
+        display: none;
+    }
+    .desc__box{
+        width: 600px;
+    }
+    .all__new{
+        font-size: 50px;
+    }
+    .viv{
+        font-size: 30px;
+        margin-left: 120px;
+    }
+}
+@media  screen and (max-width: 700px){
+    .desc__box{
+        width: 400px;
+        height: 250px;
+        margin-left: 120px;
+    }
+    .all__new{
+        font-size: 30px;
+    }
+    .viv{
+        font-size: 20px;
+        margin-left: 60px;
+    }
+}
+@media  screen and (max-width: 565px){
+    .desc__h11{
+        font-size: 60px;
+    }
+    .desc__box{
+        width: 350px;
+        height: 200px;
+        margin-left: 30px;
+    }
+    .viv{
+        font-size: 15px;
+    }
+}
+@media  screen and (max-width: 413px){
+    .describing{
+        width: 100%;
+        height: 50vh;
+    }
+    .desc__h11{
+        font-size: 40px;
+    }
+}
+
