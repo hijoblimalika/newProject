@@ -44,6 +44,7 @@
 @media  screen and (max-width: 561px) {
     .main{
         margin-top: -25%;
+        height: 60vh;
     }
     .main__img1{
         margin-left: 100px;
@@ -51,6 +52,14 @@
     .main__collection img{
         width: 150px;
         margin-left: 40px;
+    }
+}
+@media  screen and (max-width: 561px) {
+    .main p{
+        display: none;
+    }
+    .main h1{
+        padding-top:-200px;
     }
 }
 

@@ -21,7 +21,7 @@ Vestibum ante ipsum primis in faucibus orci</h4>
             </div>
             <div className="desc__box2">
                 <img src="https://infinizai.netlify.app/img/romb.png" alt="" className='describing__img2'/>
-                <b className='all__new'>Generation Graphics</b>
+                <b className='all__new'>All New Gameplay</b>
                 <h4 className="viv">Vivamus magna justo, lacinia eget coecetur
 sed, convallis at tellus. Curabitur non nulla sit
 Vestibum ante ipsum primis in faucibus orci</h4>
