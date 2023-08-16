@@ -1,0 +1,77 @@
+.gaming{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.gaming img{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.gaming__text{
+    position: absolute;
+    
+}
+.gaming__text h1{
+    width: 60%;
+    height: auto;
+    font-size: 80px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-weight: 100;
+}
+.gaming__text p{
+    width: 40%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 30px;
+    color: #555555;
+}
+.gaming__int{
+    margin-left: 34%;
+    margin-top: 100px;
+}
+.gaming__int input{
+    width: 350px;
+    height: 72px;
+    font-size: 22px;
+    background: #ffff;
+    color: #0000;
+    border: none;
+    padding-left: 50px;
+}
+.gaming__int button{
+    background: #ffff;
+    border: none;
+    width: 200px;
+    height: 72px;
+    background: dodgerblue;
+    color: #fff;
+    font-size: 22px;
+}
+@media  screen and (max-width: 413px) {
+    .gaming__text h1{
+        font-size: 30px;
+    }
+    .gaming__text p{
+        display: none;
+    }
+    .gaming__int{
+        margin-top: 10px;
+        margin-left: -20px;
+    }
+    .gaming__int input{
+        margin-left: 50px;
+    }
+    .gaming__int button{
+        margin-left: 27%;
+        margin-top: 10px;
+    }
+    .gaming img{
+        height: 40vh;
+    }
+
+}
